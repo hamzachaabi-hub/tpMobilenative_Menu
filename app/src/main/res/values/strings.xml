@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TPMenu</string>
+    <string name="menu_search">menu_search</string>
+    <string name="action1">action1</string>
+    <string name="action2">action2</string>
+    <string name="action3">action3</string>
+    <string name="Couleur">couleur</string>
+</resources>

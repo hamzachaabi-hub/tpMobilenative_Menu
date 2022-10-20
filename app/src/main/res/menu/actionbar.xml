@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ActionBar="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Exit"
+        android:title="Exit"
+        android:icon="@drawable/exit"
+        app:showAsAction="always"/>
+
+    <item
+    android:id="@+id/menu_search"
+    android:title="@string/menu_search"
+    android:icon="@drawable/search"
+    app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+
+    <item
+        android:id="@+id/action1"
+        android:title="@string/action1"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action2"
+        android:title="@string/action2"
+        app:showAsAction="never"/>
+    <item android:title="@string/Couleur">
+
+        <menu app:actionViewClass="android.widget.CheckBox">
+            <item android:title="Rouge" />
+            <item android:title="Bleu" />
+        </menu>
+    </item>
+</menu>
